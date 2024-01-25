@@ -1,3 +1,11 @@
+<?php
+if ($_POST) {
+	if (!empty($_POST["api_key"])) {
+		update_option('cgmaps_api_key', $_POST["api_key"]);
+	}
+}
+?>
+
 <div class="wrap">
 	<div class="cgmaps-main-header">
 		<div>
@@ -52,4 +60,15 @@
 			?>
 		</tbody>
 	</table>
+
+	<div class="api-setting">
+		<form method="post" class="cgmaps-form">
+			<label for="api_key">API Key:</label>
+			<input type="text" id="api_key" name="api_key" placeholder="MapPuppa" value="<?php echo get_option('cgmaps_api_key', ''); ?>" required />
+
+			<p class="submit">
+				<input type="submit" name="submit" id="submit" class="button button-primary" value="Save API Key">
+			</p>
+		</form>
+	</div>
 </div>
