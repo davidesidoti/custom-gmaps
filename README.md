@@ -1,6 +1,6 @@
 # Custom G-Maps WordPress Plugin
 
-![Custom G-Maps Logo](/assets/logo.png)
+![Custom G-Maps Logo](custom-gmaps/assets/images/logo.jpg)
 
 ## Overview
 
