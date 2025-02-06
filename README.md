@@ -46,4 +46,4 @@ This project is licensed under the GNU General Public License v3.0. See [LICENSE
 
 ---
 
-**Custom G-Maps** is crafted with ❤️ by Enzo Manone.
+**Custom G-Maps** is crafted with ❤️ by Davide Sidoti.
